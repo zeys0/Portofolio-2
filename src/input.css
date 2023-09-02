@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nunito+Sans:opsz@6..12&display=swap");
+* {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.social-media {
+  @apply border w-10 h-10 flex items-center justify-center rounded-full hover:border-red-600 hover:transition-all hover:delay-300 hover:ease-in-out hover:shadow-md shadow-red-500;
+}
+
+.icon-basic {
+  @apply border rounded-full my-1 p-1 h-[40px] w-[40px] hover:outline-double hover:outline-slate-500 hover:shadow-md hover:transition;
+}
+
+.button-mobile {
+  @apply flex flex-row-reverse items-center;
+}
+
+.svg-style {
+  @apply rounded-full border p-1 hover:shadow-md hover:ring hover:transition hover:delay-200;
+}
+
+.button-text {
+  @apply pl-1 text-base text-slate-200 tracking-wide;
+}
